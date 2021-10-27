@@ -64,7 +64,7 @@ async function run() {
 
     // console.log("database connected");
   } finally {
-    // await client.close();
+    // await client.close():
   }
 }
 run().catch(console.dir);
@@ -75,6 +75,9 @@ app.get("/", (req, res) => {
 
 app.get("/hello", (req, res) => {
   res.send("Hello updated here");
+});
+app.get("/gello", (req, res) => {
+  res.send("Gello updated here");
 });
 
 app.listen(port, () => {
