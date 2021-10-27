@@ -77,7 +77,7 @@ app.get("/hello", (req, res) => {
   res.send("Hello updated here");
 });
 app.get("/gello", (req, res) => {
-  res.send("Gello updated here");
+  res.send("Gello updated here 2nd time");
 });
 
 app.listen(port, () => {
